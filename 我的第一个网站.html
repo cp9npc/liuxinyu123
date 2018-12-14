@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>海贼王</title>
+	<style type="text/css">
+
+		#div4{width:1920px;height:1080px;}
+		#div4{background-image: url('1.jpg');background-size:1920px 1080px;background-repeat: no-repeat;}
+		body{font-family:"黑体";font-size:35px;line-height:1.5em;background:#FFFFF0 0 0 repeat;
+	            padding:0px 0 0;
+				margin:auto;
+				text-align:center;
+			}
+		
+		
+		p{text-indent:2em;}
+		.ribbon {
+				display:inline-block;
+			}
+
+			.ribbon:after, .ribbon:before {
+				margin-top:0.5em;
+				content: "";
+				float:left;
+				border:1.5em solid #CE0000;
+			}
+
+			.ribbon:after {
+				border-right-color:transparent;
+			}
+
+			.ribbon:before {
+				border-left-color:transparent;
+			}
+
+			.ribbon a:link, .ribbon a:visited { 
+				color:#000;
+				text-decoration:none;
+			    float:left;
+			    height:3.5em;
+				overflow:hidden;
+			}
+
+			.ribbon span {
+				background:#CE0000;
+				display:inline-block;
+				line-height:3em;
+				padding:0 1em;
+				margin-top:0.5em;
+				position:relative;
+
+				-webkit-transition: background-color 0.2s, margin-top 0.2s;  /* Saf3.2+, Chrome */
+				-moz-transition: background-color 0.2s, margin-top 0.2s;  /* FF4+ */
+				-ms-transition: background-color 0.2s, margin-top 0.2s;  /* IE10 */
+				-o-transition: background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+ */
+				transition: background-color 0.2s, margin-top 0.2s;
+			}
+
+			.ribbon a:hover span {
+				background:#FFD204;
+				margin-top:0;
+			}
+
+			.ribbon span:before {
+				content: "";
+				position:absolute;
+				top:3em;
+				left:0;
+				border-right:0.5em solid #9B8651;
+				border-bottom:0.5em solid #CE0000;
+			}
+
+			.ribbon span:after {
+				content: "";
+				position:absolute;
+				top:3em;
+				right:0;
+				border-left:0.5em solid #9B8651;
+				border-bottom:0.5em solid #CE0000;
+			}
+	</style>
+</head>
+<body>
+	<div id="div4">
+   <h1 style="font-family:楷体;font-size:40px;color:white;text-align:center;line-height:2em;">一人之下</h1>
+	<div class='ribbon'>
+			<a href='#'><span>点击启航</span></a>
+			
+		</div>
+
+	</div>
+	<embed height="50" width="200" src="路飞.mp3">
+</body>
+</html>
